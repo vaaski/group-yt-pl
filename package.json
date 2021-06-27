@@ -28,5 +28,10 @@
     "rimraf": "^3.0.2",
     "ts-node": "^10.0.0",
     "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "fs-jetpack": "^4.1.0",
+    "google-auth-library": "^7.1.2",
+    "googleapis": "^78.0.0"
   }
 }
