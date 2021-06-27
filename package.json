@@ -32,7 +32,6 @@
   "dependencies": {
     "@googleapis/youtube": "^2.0.0",
     "fs-jetpack": "^4.1.0",
-    "google-auth-library": "^7.1.2",
-    "googleapis": "^78.0.0"
+    "google-auth-library": "^7.1.2"
   }
 }
