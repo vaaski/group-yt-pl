@@ -7,7 +7,9 @@
   "license": "MIT",
   "author": "",
   "scripts": {
-    "start": "node -r dotenv/config lib",
+    "removeToken": "rimraf token.json & cls",
+    "start": "npm run removeToken & npx ts-node -r dotenv/config ./src/index.ts",
+    "prod": "npm run removeToken & node -r dotenv/config lib",
     "build": "rimraf lib && tsc",
     "prepare": "npm run build",
     "dev": "nodemon"
