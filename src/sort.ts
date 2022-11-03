@@ -26,7 +26,7 @@ export default (unsorted: Video[]): SortMove[] => {
 
   const localSort: Video[] = [...unsorted]
 
-  // re-orders the unsorted playlist locally and records the necessary moves
+  // execute a re-order and record the moves
   const moves: SortMove[] = []
   const reorder = (video: Video, to: number) => {
     const { id, snippet } = video
