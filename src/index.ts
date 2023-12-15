@@ -1,6 +1,8 @@
 import { youtube } from "@googleapis/youtube"
 import { execSync } from "child_process"
-import { copy } from "fs-jetpack"
+import jetpack from "fs-jetpack"
+const { copy } = jetpack
+
 import auth from "./auth"
 import sort from "./sort"
 import { p } from "./util"

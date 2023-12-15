@@ -2,7 +2,9 @@ import type { Secret } from "../types/Google"
 import type { Credentials } from "google-auth-library"
 
 import { execSync } from "child_process"
-import { read, write } from "fs-jetpack"
+import jetpack from "fs-jetpack"
+const { read, write } = jetpack
+
 import { OAuth2Client } from "google-auth-library"
 import { p } from "./util"
 import getPort from "get-port"
